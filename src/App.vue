@@ -1,23 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="hello">
+    <img alt="Vue logo" src="./assets/PicsArt_10-13-04_00_52.png">
+    <HelloWorld msg="Well cum to Your Ass"/>
+    <ComputerRooms/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import HelloWorld from "@/components/HelloWorld";
+import ComputerRooms from "@/components/ComputerRooms";
 
 export default {
   name: 'App',
   components: {
+    ComputerRooms,
     HelloWorld
   }
 }
 </script>
 
 <style>
-#app {
+#hello {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
